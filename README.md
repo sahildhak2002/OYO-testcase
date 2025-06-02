@@ -1,5 +1,5 @@
 # OYO-testcase
-🔴 Fail Test Cases
+# Fail Test Cases
 TC001 - Signup/Login: Accepts 12-digit Mobile Number (Fail)
 
 Description: The Signup/Login page accepts mobile numbers with more than 10 digits (e.g., 12 digits), which is a clear violation of mobile number validation standards in India. It should restrict the user to only 10 numeric digits.
@@ -24,7 +24,7 @@ Description: Even on the booking page, the mobile number field allows users to i
 
 Impact: Users may be unable to receive booking confirmations or updates if invalid numbers are entered.
 
-✅ Pass Test Cases
+# Pass Test Cases
 TC005 - Signup/Login: Valid 10-digit Mobile Number (Pass)
 
 Description: When the user enters a valid 10-digit Indian mobile number, the app accepts it and proceeds without any error.
